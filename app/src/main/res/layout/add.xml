@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionbar_dimen"
+        android:layout_gravity="right|top"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/actionbar_dimen"
+            android:text="공유"
+            android:id="@+id/share"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/drawer_selector_main"
+            android:padding="20dp"
+            android:layout_gravity="right|top"
+            android:gravity="center" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/actionbar_dimen"
+            android:layout_weight="1"
+            android:text="취소"
+            android:id="@+id/cancel"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/drawer_selector_main"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_gravity="right|top" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_group">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="그룹"
+            android:id="@+id/title"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:textColor="@color/darker_gray"
+            android:textSize="12dp"
+            android:layout_marginLeft="5dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:layout_weight="5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="@color/light_gray"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="그룹 추가"
+            android:id="@+id/button7"
+            android:textSize="13dp"
+            android:background="@drawable/bt_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="7dp"
+        android:background="@drawable/layout_group">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="이름"
+            android:id="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:hint="이름"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="연락처"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="10dp"
+            android:textIsSelectable="false"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:hint="연락처"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="상세정보"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText4"
+            android:hint="상세정보"
+            android:gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

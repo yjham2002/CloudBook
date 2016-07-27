@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:id="@+id/rootLay"
+android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/frameLayout">
+
+        <Button
+            android:layout_width="@dimen/actionbar_dimen_w"
+            android:layout_height="@dimen/actionbar_dimen"
+            android:id="@+id/exit"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/drawer_selector"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_gravity="left|top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Chat"
+            android:id="@+id/title"
+            android:layout_gravity="center"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="14">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:background="@color/dark"
+        android:weightSum="15"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="14"
+                >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/msg"
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:singleLine="true"
+                >
+            </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/actionbar_dimen"
+            android:id="@+id/send"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:text="보내기" />
+
+    </LinearLayout>
+
+        <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat"
+            android:dividerHeight="0dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:divider="@drawable/trans"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/linearLayout" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/ATIV/StudioProjects/CloudBook/app/src/main/res/layout/activity_chat.xml -->

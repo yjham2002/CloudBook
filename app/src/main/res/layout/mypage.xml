@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/parentView">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical"
+        android:src="@color/transparent_gray" />
+
+    <com.CBook.CB.cloudbook.ParallaxScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="@dimen/profile_margin"
+        android:layout_width="match_parent"
+        android:id = "@+id/pscroll"
+        android:layout_height="match_parent"
+        app:parallax_factor="1.9"
+        tools:context=".MainActivity" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical" >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/profile"
+                android:id="@+id/parallex">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/profile_pic"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/default_margin"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Loading..."
+                        android:id="@+id/Me"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/default_text_large" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Loading..."
+                        android:id="@+id/Mail"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/default_text"
+                        android:layout_margin="@dimen/default_margin" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/scroller"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/default_margin"
+                    android:background="@color/colorPrimary"
+                    />
+                <include
+                    android:id="@+id/scrollpane"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/default_margin"
+                    layout="@layout/propane"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.CBook.CB.cloudbook.ParallaxScrollView>
+
+    <ImageView
+        android:layout_width="@dimen/iconSize"
+        android:layout_height="@dimen/iconSize"
+        android:id="@+id/bt_exit"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/icon_close"
+        android:padding="5dp" />
+
+</FrameLayout>

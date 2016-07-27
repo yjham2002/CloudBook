@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation = "vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="회원가입"
+                android:id="@+id/textView7"
+                android:padding="15dp"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="아이디"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="7dp"
+                    android:textSize="17dp">
+                    <requestFocus android:layout_width="wrap_content" />
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/editText2"
+                    android:hint="비밀번호 입력"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="7dp"
+                    android:textSize="17dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/confirm"
+                    android:hint="비밀번호 확인"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="7dp"
+                    android:textSize="17dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize = "10dp"
+                    android:text="- 비밀번호를 입력하세요."
+                    android:textColor="@color/white"
+                    android:id="@+id/warn"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="15dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/editText3"
+                    android:hint="이름"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="7dp"
+                    android:textSize="17dp" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/editText4"
+                    android:hint="이메일"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="7dp"
+                    android:textSize="17dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/editText5"
+                    android:hint="연락처"
+                    android:textColor="@color/white"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:layout_margin="7dp"
+                    android:textSize="17dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/editText6"
+                    android:hint="소개"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="개인정보 및 위치정보 제공에 동의합니다."
+                android:id="@+id/checkBox2"
+                android:layout_margin = "7dp"
+                android:textSize="12dp"
+                android:textColor="@color/white"/>
+
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="?selectableItemBackgroundBorderless"
+                android:layout_gravity="center_horizontal"
+                android:text="회원가입"
+                />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:background="?selectableItemBackgroundBorderless"
+                android:layout_gravity="center_horizontal"
+                android:text="이미 회원이신가요?"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/C:/Users/ATIV/StudioProjects/CloudBook/app/src/main/res/layout/register.xml -->

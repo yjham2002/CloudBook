@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#DEDEDE</color>
+    <color name="dark_gray">#474a4a4a</color>
+    <color name="darker_gray">#222222</color>
+    <color name="dark_gray_pressed">#373e44</color>
+    <color name="blue">#3e67d6</color>
+    <color name="shade">#FF4141</color>
+    <color name="transBG">#AB000000</color>
+    <color name="colorPrimaryDark2">#AA2222</color>
+    <color name="colorPrimaryMid">#FF5A5A</color>
+    <color name="colorEmergency">#FF5E00</color>
+    <color name="colorEmergencyDark">#DB3A00</color>
+    <color name="transparent">#00000000</color>
+    <color name="buttonPrimary">#0e4580</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#CC1D1D</color>
+
+    <color name="colorPrimary">#FF4848</color>
+    <color name="colorPrimaryDark">#FF4848</color>
+    <color name="colorAccent">#FF4080</color>
+
+
+    <color name="accent">#FFFFFF</color>
+    <color name="black">#a10320</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="dark">#474747</color>
+    <color name="iron">#EEEEEE</color>
+    <color name="transparent_gray">#55000000</color>
+    <color name="transparent_gray2">#11000000</color>
+    <color name="windowBackground">#FF4848</color>
+</resources>

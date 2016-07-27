@@ -1,0 +1,229 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:2:1-65:12
+	package
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:11:5-66
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:15:22-66
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:16:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:17:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:18:5-82
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:18:22-79
+permission#com.example.gcm.permission.C2D_MESSAGE
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:19:5-109
+	android:protectionLevel
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:19:71-106
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:19:17-70
+uses-permission#com.example.gcm.permission.C2D_MESSAGE
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:20:22-75
+application
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:22:5-63:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:26:9-41
+	android:allowBackup
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:24:9-35
+	android:icon
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:25:9-43
+	android:theme
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:27:9-40
+activity#com.CBook.CB.cloudbook.IntroActivity
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:28:9-32:20
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:28:48-84
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:28:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:28:85-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:30:27-74
+activity#com.CBook.CB.cloudbook.MainActivity
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:33:9-37:32
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:36:13-49
+	android:label
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:34:13-41
+activity#com.CBook.CB.cloudbook.ChatClientActivity
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:38:9-101
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:38:53-89
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:38:19-52
+activity#com.CBook.CB.cloudbook.tutorialActivity
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:39:9-140
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:39:92-128
+	android:theme
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:39:51-91
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:39:19-50
+activity#com.CBook.CB.cloudbook.settingActivity
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:40:9-98
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:40:50-86
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:40:19-49
+activity#com.CBook.CB.cloudbook.ChatListActivity
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:41:9-99
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:41:51-87
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:41:19-50
+activity#com.CBook.CB.cloudbook.myPageActivity
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:42:9-138
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:42:90-126
+	android:theme
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:42:49-89
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:42:19-48
+activity#com.CBook.CB.cloudbook.DetailActivity
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:43:9-98
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:43:50-86
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:43:19-49
+activity#com.CBook.CB.cloudbook.adminActivity
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:44:9-96
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:44:48-84
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:44:19-47
+activity#com.CBook.CB.cloudbook.RegisterActivity
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:45:9-99
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:45:51-87
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:45:19-50
+activity#com.CBook.CB.cloudbook.InfoActivity
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:46:9-95
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:46:47-83
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:46:19-46
+activity#com.CBook.CB.cloudbook.loginActivity
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:47:9-96
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:47:48-84
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:47:19-47
+activity#com.CBook.CB.cloudbook.gcmManager
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:48:9-94
+	android:screenOrientation
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:48:46-82
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:48:19-45
+receiver#com.CBook.CB.cloudbook.GCMBroadcastReceiver
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:50:9-60:20
+	android:permission
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:52:13-73
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:51:13-49
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.google.android.gcm.demo.app
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:53:13-59:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:55:17-81
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:55:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:57:17-86
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:57:25-83
+category#com.google.android.gcm.demo.app
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:58:17-76
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:58:27-73
+service#com.CBook.CB.cloudbook.GCMIntentService
+ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:61:9-61
+	android:name
+		ADDED from C:\Users\ATIV\StudioProjects\CloudBook\app\src\main\AndroidManifest.xml:61:18-50
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:22:13-58

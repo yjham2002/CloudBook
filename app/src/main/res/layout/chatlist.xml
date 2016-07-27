@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/trans"
+        android:layout_margin="2.5dp"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/listbox"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:id="@+id/caller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:phoneNumber="false"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/isRead"
+            android:background="@color/dark_gray"
+            android:layout_marginTop="3dp" />
+
+        <TextView
+            android:id="@+id/recent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="10dp"
+            android:textColor="#777777"
+            android:paddingLeft="10dp"
+            android:paddingBottom="7dp"
+            android:layout_gravity="left|center_vertical" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/trans"
+        android:layout_margin="2.5dp"
+        />
+
+</LinearLayout>

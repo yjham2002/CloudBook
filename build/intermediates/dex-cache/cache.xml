@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\debug\classes-0e48fe373e89396c4448c6d975a22f894639073e.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\release\classes-66d07c57f7d49ec761e9d810a408df7dc656a076.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\debug\classes-7b74f1d62c95262c9b857f3a32d4230a9919e6f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\debug\classes-c706a458a9c8190999e90bb348d95d35271390a2.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\debug\classes-d91150428fd1bf1251c53f6e647a0cf445504872.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\debug\classes-e5820e47459fd3d93c87b6e8e06b52517dcaff58.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-52c3d287d3957b9c230f53819ac3508aadc7283b.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\release\classes-97aeffe37f4bb683ce82bc20f75c20b649b38e71.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIV\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-66670956273a896339a013aa55bbaad05a119f39.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\debug\classes-66d07c57f7d49ec761e9d810a408df7dc656a076.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\release\classes-c706a458a9c8190999e90bb348d95d35271390a2.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\debug\classes-e67270b19ee9c723e2d0ba9319791e15a88d3c96.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="C:\Users\ATIV\StudioProjects\CloudBook\app\build\intermediates\pre-dexed\debug\classes-97aeffe37f4bb683ce82bc20f75c20b649b38e71.jar" />
+    </item>
+
+</items>

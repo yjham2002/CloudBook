@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="계정"
+            android:textColor="@color/jet"
+            android:textSize="@dimen/default_text_large" />
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/menuq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark"
+        android:textSize="@dimen/default_text_mid"
+        android:text="회원탈퇴"
+        android:gravity="left|center_vertical"
+        />
+
+</LinearLayout>
+

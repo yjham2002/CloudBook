@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:layout_width="@dimen/actionbar_dimen_w"
+            android:layout_height="@dimen/actionbar_dimen"
+            android:text=""
+            android:id="@+id/button8"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/drawer_selector"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_gravity="left|top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="채팅"
+            android:id="@+id/titleText"
+            android:layout_gravity="center"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView2"
+            android:layout_gravity="center_horizontal"
+            android:drawSelectorOnTop="false"
+            android:dividerHeight="0dp"
+            android:divider="#00ffffff"
+             />
+        <TextView
+            android:id="@+id/empty"
+            android:text="대화목록이 없습니다 :("
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="@color/darker_gray"
+            style="@android:style/TextAppearance.Large"
+            android:gravity="center" />
+    </FrameLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/ATIV/StudioProjects/CloudBook/app/src/main/res/layout/activity_msg.xml -->

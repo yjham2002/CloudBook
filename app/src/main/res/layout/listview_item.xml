@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/mText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Loading..."
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/jet"
+                        android:phoneNumber="false"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="7dp"
+                        android:textSize="@dimen/default_text_large" />
+
+                    <TextView
+                        android:id="@+id/mDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Loading..."
+                        android:textSize="10dp"
+                        android:textColor="@color/base"
+                        android:padding="@dimen/default_margin" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.0km"
+                    android:id="@+id/length"
+                    android:textSize="8dp"
+                    android:textColor="@color/dark"
+                    android:layout_gravity="center_vertical|right"
+                    android:padding="@dimen/default_margin" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:id="@+id/status"
+                android:background="@color/base" />
+
+            <TextView
+                android:id="@+id/mContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loading..."
+                android:padding="10dp"
+                android:textSize="@dimen/default_text"
+                android:textColor="@color/dark" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

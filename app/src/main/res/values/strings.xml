@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CloudBook</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="detail">Developed By 5IDIOTS\n\nWeb Support / Naming Inspiration 강용화\nWeb Support / Functional Inspiration 고성욱\nWeb Support / Promotion 이상준\nSupport Developer 전세호\nSupervisor
+        / Main Developer / Web Design 함의진\n\nCopyrightⓒ5IDIOT, all right reserved.</string>
+
+    <string name="content_hint">Content</string>
+
+    <string name="drawer_hint">Drawer</string>
+
+    <string name="rounded">See Rounded</string>
+
+    <string name="stating_button">시작하기</string>
+
+    <string name="squared">See Squared</string>
+
+    <string name="tutorial01">처음 만나는 컨택트 셰어링 플랫폼 그리고 오는김에 서비스!</string>
+    <string name="tutorial01_t">CloudBook</string>
+    <string name="tutorial02">Contact Sharing이란 내선번호 혹은 114에 미등록된 여러 종류의 연락처를 그룹별로 공유할 수 있는 서비스입니다.</string>
+    <string name="tutorial02_t">컨택트 셰어링</string>
+    <string name="tutorial03">오는 김에 서비스와 가는 김에 서비스는, 위치 정보를 기반으로 가까운 불특정 다수에게 부탁을 전달할 수 있는 서비스입니다. \n가는 김에 서비스는 부탁을 들어주는 입장입니다.</string>
+    <string name="tutorial03_t">오는 김에, 가는 김에</string>
+    <string name="tutorial04">부탁을 요청하든 요청받든, 연락처를 공개할 필요가 없습니다. \n채팅 서비스를 이용하여 보다 안전하게 이용하세요!</string>
+    <string name="tutorial04_t">채팅 서비스</string>
+
+</resources>

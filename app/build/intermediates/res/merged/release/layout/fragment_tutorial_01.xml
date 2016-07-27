@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        android:background="@color/transBG" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/tutorial_iv"
+            android:src="@drawable/tuto_a"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Loading..."
+            android:id="@+id/textView8"
+            android:layout_gravity="left|center_vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tutorial_t"
+            android:layout_margin="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView4"
+            android:layout_gravity="left|bottom"
+            android:layout_margin="15dp"
+            android:text = "Loading..."
+            android:textSize="@dimen/tutorial"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</FrameLayout>
+<!-- From: file:/C:/Users/ATIV/StudioProjects/CloudBook/app/src/main/res/layout/fragment_tutorial_01.xml -->

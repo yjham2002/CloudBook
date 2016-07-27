@@ -1,0 +1,32 @@
+<resources>
+    <dimen name="header_height">220dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- FloatingActionButton -->
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_shadow_size">8dp</dimen>
+    <dimen name="fab_mini_shadow_size">6dp</dimen>
+    <dimen name="actionbar_dimen">56dp</dimen>
+    <dimen name="actionbar_dimen_w">56dp</dimen>
+
+    <dimen name="tutorial">14dp</dimen>
+    <dimen name="tutorial_t">23dp</dimen>
+    <dimen name="title">50dp</dimen>
+    <dimen name="memoSize">100dp</dimen>
+    <dimen name="mainText">25dp</dimen>
+    <dimen name="titleSize">56dp</dimen>
+    <dimen name="default_margin">15dp</dimen>
+    <dimen name="default_refresh">10dp</dimen>
+    <dimen name="default_padding">5dp</dimen>
+    <dimen name="iconSize">45dp</dimen>
+    <dimen name="default_text">12dp</dimen>
+    <dimen name="default_text_mid">16dp</dimen>
+    <dimen name="default_text_large">20dp</dimen>
+    <dimen name="map_size">220dp</dimen>
+    <dimen name="profile">250dp</dimen>
+    <dimen name="profile_margin">30dp</dimen>
+    <dimen name="map_overlap">50dp</dimen>
+</resources>
